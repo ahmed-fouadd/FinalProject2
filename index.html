@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.typekit.net/pkl6sgp.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main id="intro-screen" tabindex="0">
+  <div class="intro-copy">
+    <p>You moved in to your new Boston apartment.</p>
+    <button id="begin-button" type="button">Click anywhere to begin</button>
+  </div>
+</main>
+
+<div id="ticket">
+  <button id="envelope" type="button" aria-label="Open residential agreement" hidden></button>
+  <p id="asset-error" role="alert" hidden></p>
+</div>
+
+<div id="phone-screen" aria-label="Rental agreement introduction" hidden>
+  <div class="phone-card">
+    <img src="IphoneAgreement.png" alt="Rental agreement with monthly rent and move-in fees">
+  </div>
+</div>
+
+<p id="caption" hidden aria-live="polite"></p>
+<button id="restart-button" type="button" hidden>Restart</button>
+
+<div id="residential-overlay" role="dialog" aria-modal="true" aria-label="Residential lease agreement" aria-hidden="true">
+  <img src="Residential agreement.png" alt="Official residential lease agreement from August 1994">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

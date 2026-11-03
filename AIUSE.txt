@@ -1,0 +1,7 @@
+AI was used to fine tune the code provided by professor 
+to alter images instead of solid colors using the 
+prompt:
+
+"ok do not change any of this code just tell me how i can
+ make each layer show one of the images in the folder 
+ and not the colors"
